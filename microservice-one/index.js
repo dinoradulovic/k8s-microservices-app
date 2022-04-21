@@ -15,7 +15,7 @@ app.get('/microservice-one', async (req, res) => {
     res.json({
       resource: 'microservice-one',
       data: {
-        fieldOne: "example 37",
+        fieldOne: "example 38",
         fieldTwo: "example",
         microserviceTwo: data
       }
