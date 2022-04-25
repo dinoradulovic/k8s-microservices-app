@@ -13,10 +13,10 @@ app.get('/microservice-one', async (req, res) => {
     let { data } = await axios.get(process.env.SERVICE_TWO_URL);
 
     res.json({
-      resource: 'microservice-one',
+      resource: 'MICROSERVICE-ONE',
       data: {
-        fieldOne: "example 38",
-        fieldTwo: "example",
+        fieldOne: "valueOne",
+        fieldTwo: "valueTwo",
         microserviceTwo: data
       }
     });

@@ -8,10 +8,10 @@ app.get('/', async (req, res) => res.sendStatus(200));
 
 app.get('/microservice-two', (req, res) => {
   res.json({
-    resource: 'microservice-two',
+    resource: 'MICROSERVICE-TWO',
     data: {
-      fieldOne: "example 2",
-      fieldTwo: "example"
+      fieldOne: "valueOne",
+      fieldTwo: "valueTwo"
     }
   });
 });
