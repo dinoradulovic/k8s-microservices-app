@@ -25,5 +25,5 @@ jobs:
           cd ./app/microservice-one
           npm i
           TIMESTAMP=$(date +%s)
-          docker build . -t ghcr.io/${{ github.actor }}/${{ github.repository }}-staging:tmstp-$TIMESTAMP
-          docker push ghcr.io/dinoradulovic/k8s-microservices-app-staging:tmstp-$TIMESTAMP
+          docker build . -t ghcr.io/${{ github.repository }}-staging:tmstp-$TIMESTAMP
+          docker push ghcr.io/${{ github.repository }}-staging:tmstp-$TIMESTAMP
