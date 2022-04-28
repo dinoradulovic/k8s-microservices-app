@@ -43,10 +43,12 @@ They can be accessed by running:
 Microservice one: 
 
 `minikube service microservice-one-service-name-staging --url -n staging` and 
+
 `minikube service microservice-one-service-name-staging --url -n production`
 
 Microservice two: 
 
 `minikube service microservice-one-service-name-staging --url -n staging` and 
+
 `minikube service microservice-one-service-name-staging --url -n production`
 
